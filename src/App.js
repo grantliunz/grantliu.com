@@ -10,7 +10,6 @@ import Skills from "./components/Skills";
 export default function App() {
   return (
     <div >
-      <Navbar />
       <Home />
       <About />
       <Skills />

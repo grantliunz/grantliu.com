@@ -1,4 +1,6 @@
 import React from 'react'
+import { RiArrowDownSLine } from 'react-icons/ri'
+import { Link } from 'react-scroll'
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -18,7 +20,7 @@ export default function Skills() {
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-                    <p className='py-4'>// These are the technologies I've worked with</p>
+                    <p className='py-4'>Technologies I've worked with:</p>
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -54,6 +56,14 @@ export default function Skills() {
                         <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                         <p>HTML</p>
                     </div>
+                </div>
+                <div className=''>
+                    <Link to="projects" smooth={true} duration={500}>
+                        <button className='text-white py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+                            <RiArrowDownSLine size={50} />
+                        </button>
+                    </Link>
+
                 </div>
             </div>
         </div >
