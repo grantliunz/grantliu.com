@@ -1,5 +1,7 @@
 import React from 'react'
 import { RiArrowDownSLine } from 'react-icons/ri'
+import { RiArrowUpSLine } from 'react-icons/ri'
+
 import { Link } from 'react-scroll'
 
 export default function About() {
@@ -7,9 +9,18 @@ export default function About() {
         <div name='about' className="w-full h-screen bg-white text-gray-300">
 
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+
+                <div>
+                    <button className='text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+                        <Link to="home" smooth={true} duration={500}>
+                            <RiArrowUpSLine size={50} />
+                        </Link>
+                    </button>
+                </div>
+
                 <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'  >
                     <div className='pb-8'>
-                        <p className='text-5xl font-bold inline border-b-4 border-primary text-primary'>About</p>
+                        <p className='text-5xl font-bold inline  text-primary'>About</p>
                     </div>
                     <div></div>
                 </div>
@@ -23,17 +34,15 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className=''>
-                    <Link to="skills" smooth={true} duration={500}>
-                        <button className='text-secondary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+                <div>
+                    <button className='text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+
+                        <Link to="skills" smooth={true} duration={500}>
                             <RiArrowDownSLine size={50} />
-                        </button>
-                    </Link>
 
+                        </Link>
+                    </button>
                 </div>
-
-
-
             </div>
 
 

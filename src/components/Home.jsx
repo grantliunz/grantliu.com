@@ -4,6 +4,8 @@ import { Link } from 'react-scroll'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Typed from 'react-typed';
+
 
 export default function Home() {
   return (
@@ -11,8 +13,13 @@ export default function Home() {
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <p >Hi, my name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-white'>Grant Liu</h1>
+        <p>Hi, my name is</p>
+        <h1 className='text-4xl sm:text-7xl font-bold text-white'>
+          <Typed
+            strings={['Grant Liu']}
+            typeSpeed={100}
+
+          /></h1>
         <h2 className='text-4xl sm-text-7xl font-bold text-[#8892b0]'>I'm a software engineering student</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nemo explicabo repudiandae possimus quis. Consequuntur
@@ -20,17 +27,18 @@ export default function Home() {
           ad nesciunt aspernatur voluptate ipsa a ea ullam similique.
         </p>
 
-        <div>
+        <div className='inline-block'>
           <Link to="about" smooth={true} duration={500}>
-            <button className='text-white py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+            <button className='text-white py-3 my-2  items-center hover:scale-150 duration-200'>
               <RiArrowDownSLine size={50} />
             </button>
           </Link>
 
         </div>
       </div>
+
       {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden fixed flex-col top-[35%] left-0'> {/* lg:flex */}
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
             <a className='flex justify-between items-center w-full text-gray-300 '

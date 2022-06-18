@@ -2,12 +2,21 @@ import React from 'react'
 import WorkImg from '../assets/workImg.jpeg'
 import realEstate from '../assets/realestate.jpg'
 import { RiArrowDownSLine } from 'react-icons/ri'
+import { RiArrowUpSLine } from 'react-icons/ri'
+
 import { Link } from 'react-scroll'
 
 export default function Projects() {
     return (
         <div name='projects' className='w-full md:h-screen text-primary bg-white'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+                <div>
+                    <button className='text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+                        <Link to="skills" smooth={true} duration={500}>
+                            <RiArrowUpSLine size={50} />
+                        </Link>
+                    </button>
+                </div>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600' > Projects</p>
                     <p className='py-6'>Check out some of my projects</p>
@@ -76,7 +85,7 @@ export default function Projects() {
                 </div>
                 <div className=''>
                     <Link to="contact" smooth={true} duration={500}>
-                        <button className='text-secondary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+                        <button className='text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
                             <RiArrowDownSLine size={50} />
                         </button>
                     </Link>

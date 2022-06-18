@@ -1,5 +1,7 @@
 import React from 'react'
 import { RiArrowDownSLine } from 'react-icons/ri'
+import { RiArrowUpSLine } from 'react-icons/ri'
+
 import { Link } from 'react-scroll'
 
 import HTML from '../assets/html.png';
@@ -19,7 +21,14 @@ export default function Skills() {
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-5xl font-bold inline border-b-4 border-white text-white '>Skills</p>
+                    <button className='text-white py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+                        <Link to="about" smooth={true} duration={500}>
+                            <RiArrowUpSLine size={50} />
+                        </Link>
+                    </button>
+                </div>
+                <div>
+                    <p className='text-5xl font-bold inline   '>Skills</p>
                     <p className='py-4'>Technologies I've worked with:</p>
                 </div>
 
