@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 
 export default function Projects() {
     return (
-        <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+        <div name='projects' className='w-full md:h-screen text-primary bg-white'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600' > Projects</p>
@@ -76,7 +76,7 @@ export default function Projects() {
                 </div>
                 <div className=''>
                     <Link to="contact" smooth={true} duration={500}>
-                        <button className='text-white py-3 my-2 flex items-center hover:scale-150 duration-200 '>
+                        <button className='text-secondary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
                             <RiArrowDownSLine size={50} />
                         </button>
                     </Link>

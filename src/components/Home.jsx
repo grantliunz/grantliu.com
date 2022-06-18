@@ -7,12 +7,12 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 export default function Home() {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen bg-primary text-white'>
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <p className='text-pink-600'>Hi, my name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Grant Liu</h1>
+        <p >Hi, my name is</p>
+        <h1 className='text-4xl sm:text-7xl font-bold text-white'>Grant Liu</h1>
         <h2 className='text-4xl sm-text-7xl font-bold text-[#8892b0]'>I'm a software engineering student</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nemo explicabo repudiandae possimus quis. Consequuntur
@@ -32,7 +32,7 @@ export default function Home() {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
             <a className='flex justify-between items-center w-full text-gray-300 '
               href="">
               Linkedin <FaLinkedin size={30} />
