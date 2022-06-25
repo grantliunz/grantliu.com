@@ -4,15 +4,18 @@ import { Link } from 'react-scroll'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Spade from '../assets/spade.png'
 import Typed from 'react-typed';
 
 
 export default function Home() {
   return (
-    <div name='home' className='w-full h-screen bg-primary text-white'>
-
+    <div name='home' className='w-full h-screen bg-gradient-to-r from-primary to-purple-900 text-white z-10 relative'>
+      <div className='rotate-90 absolute top-0 left-0 opacity-20 m-0 p-0'>
+        <img src={Spade} />
+      </div>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px]  p-4 flex flex-col justify-center w-full h-full absolute top-0 left-0 right-0 mx-auto'>
         <p>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-white'>
           <Typed
@@ -36,6 +39,8 @@ export default function Home() {
 
         </div>
       </div>
+
+
 
       {/* Social icons */}
       <div className='hidden fixed flex-col top-[35%] left-0'> {/* lg:flex */}
@@ -67,6 +72,6 @@ export default function Home() {
         </ul>
 
       </div>
-    </div>
+    </div >
   )
 }
