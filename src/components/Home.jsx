@@ -10,7 +10,7 @@ import Typed from 'react-typed';
 
 export default function Home() {
   return (
-    <div name='home' className='w-full h-screen bg-primary text-white z-10 relative'>
+    <div name='home' className='w-full h-screen bg-primary text-white relative'>
       <div className='absolute bottom-0 opacity-20 m-0 p-0 right-0'>
         <img src={Spade} />
       </div>

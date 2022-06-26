@@ -13,12 +13,17 @@ import { SiReact } from 'react-icons/si';
 import { SiC } from 'react-icons/si';
 import { SiGit } from 'react-icons/si';
 
+import Diamond from '../assets/diamond.png'
+
 
 export default function Skills() {
     return (
-        <div name='skills' className='w-full h-screen bg-primary text-white'>
+        <div name='skills' className='w-full h-screen bg-primary text-white z-10 relative'>
+            <div className='absolute bottom-0 opacity-20 m-0 p-0 right-0'>
+                <img src={Diamond} />
+            </div>
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] p-4 flex flex-col justify-center w-full h-full absolute top-0 left-0 right-0 mx-auto'>
                 <div>
                     <button className='text-white py-3 my-2 flex items-center hover:scale-150 duration-200 '>
                         <Link to="about" smooth={true} duration={500}>
