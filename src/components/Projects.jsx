@@ -18,7 +18,7 @@ export default function Projects() {
                     </button>
                 </div>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600' > Projects</p>
+                    <p className='text-4xl font-bold inline ' > Projects</p>
                     <p className='py-6'>Check out some of my projects</p>
                 </div>
                 {/* Container */}

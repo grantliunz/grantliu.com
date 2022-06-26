@@ -1,14 +1,19 @@
 import React from 'react'
 import { RiArrowDownSLine } from 'react-icons/ri'
 import { RiArrowUpSLine } from 'react-icons/ri'
+import Heart from '../assets/heart.png'
+
 
 import { Link } from 'react-scroll'
 
 export default function About() {
     return (
-        <div name='about' className="w-full h-screen bg-white text-gray-300">
+        <div name='about' className="w-full h-screen bg-white text-gray-300 relative">
+            <div className=' bottom-0 right-0 opacity-20 m-0 p-0 absolute '>
+                <img src={Heart} />
+            </div>
 
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] p-4 flex flex-col justify-center w-full h-full  absolute top-0 left-0 right-0 mx-auto'>
 
                 <div>
                     <button className='text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 '>

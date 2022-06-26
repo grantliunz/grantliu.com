@@ -4,7 +4,15 @@ import { RiArrowUpSLine } from 'react-icons/ri'
 
 import { Link } from 'react-scroll'
 
-import HTML from '../assets/html.png';
+import { SiJava } from 'react-icons/si';
+import { SiPython } from 'react-icons/si';
+import { SiHtml5 } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { SiReact } from 'react-icons/si';
+import { SiC } from 'react-icons/si';
+import { SiGit } from 'react-icons/si';
+
 
 export default function Skills() {
     return (
@@ -24,37 +32,37 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiJava size={100} />
+                        <p className='pt-2'>Java</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiPython size={100} />
+                        <p className='pt-2'>Python</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiHtml5 size={100} />
+                        <p className='pt-2'>HTML</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiCss3 size={100} />
+                        <p className='pt-2'>CSS</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiJavascript size={100} />
+                        <p className='pt-2'>Javascript</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiReact size={100} />
+                        <p className='pt-2'>React</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiC size={100} />
+                        <p className='pt-2'>C</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p>HTML</p>
+                    <div className='mx-auto'>
+                        <SiGit size={100} />
+                        <p className='pt-2'>Git</p>
                     </div>
                 </div>
                 <div className=''>
