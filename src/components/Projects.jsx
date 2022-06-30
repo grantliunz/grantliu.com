@@ -1,5 +1,6 @@
 import React from 'react'
 import pythonArcade from '../assets/arcade.png'
+import portfolio from "../assets/portfolio.png"
 import { RiArrowDownSLine } from 'react-icons/ri'
 import { RiArrowUpSLine } from 'react-icons/ri'
 import Club from '../assets/club.png'
@@ -36,11 +37,27 @@ export default function Projects() {
                                 Arcade Platformer
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href="" className=''>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
+                                        See More
+                                    </button>
                                 </a>
-                                <a href="">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${portfolio})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 '>
+                            <span className='text-2xl fond-bold text-white tracking-wider'>
+                                grantliu.com
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="" className=''>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
+                                        See More
+                                    </button>
                                 </a>
 
                             </div>

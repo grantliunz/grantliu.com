@@ -9,35 +9,35 @@ export default function Navbar() {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' >
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-black z-50 font-semibold' >
             <div>
 
             </div>
 
             {/* menu*/}
-            <ul className='hidden md:flex'>
-                <li>
-                    <Link to="home" smooth={true} duration={500}>
+            <ul className='hidden md:flex text-2xl '>
+                <li >
+                    <Link to="home" smooth={true} duration={500} className='link-underline relative'>
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link to="about" smooth={true} duration={500}>
+                    <Link to="about" smooth={true} duration={500} className='link-underline relative'>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link to="skills" smooth={true} duration={500}>
+                    <Link to="skills" smooth={true} duration={500} className='link-underline relative'>
                         Skills
                     </Link>
                 </li>
                 <li>
-                    <Link to="projects" smooth={true} duration={500}>
+                    <Link to="projects" smooth={true} duration={500} className='link-underline relative'>
                         Projects
                     </Link>
                 </li>
                 <li>
-                    <Link to="contact" smooth={true} duration={500}>
+                    <Link to="contact" smooth={true} duration={500} className='link-underline relative'>
                         Contact
                     </Link>
                 </li>
@@ -45,11 +45,11 @@ export default function Navbar() {
 
             {/* Hamburger */}
             <div onClick={handleClick} className='md:hidden z-10 '>
-                {!nav ? <FaBars /> : <FaTimes />}
+                {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
             </div>
 
             {/* Mobile Menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                         Home
@@ -80,7 +80,7 @@ export default function Navbar() {
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
                         <a className='flex justify-between items-center w-full text-gray-300 '
                             href="">
                             Linkedin <FaLinkedin size={30} />
@@ -92,13 +92,13 @@ export default function Navbar() {
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
                         <a className='flex justify-between items-center w-full text-gray-300 '
                             href="">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-gray-300 '
                             href="">
                             Resume <BsFillPersonLinesFill size={30} />

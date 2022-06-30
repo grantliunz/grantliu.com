@@ -11,11 +11,14 @@ import Skills from "./components/Skills";
 export default function App() {
   return (
     <div className="">
+      <Navbar />
       <Home />
+
       <About />
       <Skills />
       <Projects />
       <Contact />
+
     </div>
   );
 }
