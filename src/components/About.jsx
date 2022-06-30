@@ -34,8 +34,7 @@ export default function About() {
 
                     </div>
                     <div >
-
-                        <p className className="">from</p>
+                        <p className>from</p>
                         <p className="text-2xl font-bold">Auckland, New Zealand</p>
                     </div>
                 </div>
