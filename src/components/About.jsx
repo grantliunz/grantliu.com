@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 
 export default function About() {
     return (
-        <div name='about' className="w-full h-screen bg-white text-gray-300 relative">
+        <div name='about' className="w-full h-screen bg-white text-primary relative snap-start">
             <div className=' bottom-0 right-0 opacity-20 m-0 p-0 absolute '>
                 <img src={Heart} />
             </div>
@@ -30,13 +30,13 @@ export default function About() {
                     <div></div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='text-3xl font-bold'>
-                        <p>Hi. I'm Grant, nice to meet you. Please take a look around</p>
+                    <div >
+
                     </div>
                     <div >
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident impedit numquam, beatae nostrum sapiente nihil quod qui, veritatis magnam autem unde dolorum dolore suscipit nam. Eum beatae nesciunt vel rerum?
-                        </p>
+
+                        <p className className="">from</p>
+                        <p className="text-2xl font-bold">Auckland, New Zealand</p>
                     </div>
                 </div>
                 <div>

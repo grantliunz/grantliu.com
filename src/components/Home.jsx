@@ -10,8 +10,8 @@ import Typed from 'react-typed';
 
 export default function Home() {
   return (
-    <div name='home' className='w-full h-screen bg-primary text-white relative'>
-      <div className='absolute bottom-0 opacity-20 m-0 p-0 right-0'>
+    <div name='home' className='w-full h-screen bg-primary text-white relative snap-start'>
+      <div className='hidden sm:block absolute opacity-20 p-0 bottom-0 right-0 mx-auto'>
         <img src={Spade} />
       </div>
       {/* Container */}
@@ -23,12 +23,8 @@ export default function Home() {
             typeSpeed={100}
 
           /></h1>
-        <h2 className='text-4xl sm-text-7xl font-bold text-[#8892b0]'>I'm a software engineering student</h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Nemo explicabo repudiandae possimus quis. Consequuntur
-          quas consectetur eius fuga vitae, laboriosam iusto
-          ad nesciunt aspernatur voluptate ipsa a ea ullam similique.
-        </p>
+        <h2 className='text-4xl sm-text-7xl font-bold text-[#8892b0]'>Software Engineering Student</h2>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'></p>
 
         <div className='inline-block'>
           <Link to="about" smooth={true} duration={500}>

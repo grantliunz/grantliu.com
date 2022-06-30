@@ -18,7 +18,7 @@ import Diamond from '../assets/diamond.png'
 
 export default function Skills() {
     return (
-        <div name='skills' className='w-full h-screen bg-primary text-white z-10 relative'>
+        <div name='skills' className='w-full h-screen bg-primary text-white z-10 relative snap-start'>
             <div className='absolute bottom-0 opacity-20 m-0 p-0 right-0'>
                 <img src={Diamond} />
             </div>
@@ -38,35 +38,35 @@ export default function Skills() {
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                     <div className='mx-auto'>
-                        <SiJava size={100} />
+                        <SiJava size={80} />
                         <p className='pt-2'>Java</p>
                     </div>
                     <div className='mx-auto'>
-                        <SiPython size={100} />
+                        <SiPython size={80} />
                         <p className='pt-2'>Python</p>
                     </div>
                     <div className='mx-auto'>
-                        <SiHtml5 size={100} />
+                        <SiHtml5 size={80} />
                         <p className='pt-2'>HTML</p>
                     </div>
                     <div className='mx-auto'>
-                        <SiCss3 size={100} />
+                        <SiCss3 size={80} />
                         <p className='pt-2'>CSS</p>
                     </div>
                     <div className='mx-auto'>
-                        <SiJavascript size={100} />
+                        <SiJavascript size={80} />
                         <p className='pt-2'>Javascript</p>
                     </div>
                     <div className='mx-auto'>
-                        <SiReact size={100} />
+                        <SiReact size={80} />
                         <p className='pt-2'>React</p>
                     </div>
                     <div className='mx-auto'>
-                        <SiC size={100} />
+                        <SiC size={80} />
                         <p className='pt-2'>C</p>
                     </div>
                     <div className='mx-auto'>
-                        <SiGit size={100} />
+                        <SiGit size={80} />
                         <p className='pt-2'>Git</p>
                     </div>
                 </div>

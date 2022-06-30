@@ -7,6 +7,13 @@
 @layer base {
     body {
         @apply font-[Raleway];
+
+    }
+
+    html {
+        /* @apply snap-y;
+        @apply snap-mandatory;
+        @apply overflow-y-scroll; */
     }
 
     li {
@@ -20,8 +27,10 @@
     background-size: cover;
     background-position: center;
     height: 250px;
+    transition: background-image ease;
+
 }
 
 .content-div:hover {
-    background-image: linear-gradient(#411150, #411150) !important;
+    background-image: linear-gradient(to bottom right, #411150, #945ba5) !important;
 }

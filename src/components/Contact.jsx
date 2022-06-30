@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 export default function Contact() {
     return (
-        <div name='contact' className=' w-full h-screen bg-primary text-white flex justify-center items-center p-4'>
+        <div name='contact' className=' w-full h-screen bg-primary text-white flex justify-center items-center p-4 snap-start' >
 
             <form method='POST' action="https://getform.io/f/a50babc1-4518-4975-9dd7-4142a27a4a87" className='flex flex-col max-w-[600px] w-full'>
                 <div>
