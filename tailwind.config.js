@@ -9,6 +9,7 @@ module.exports = {
         'secondary': '#004B91',
         'tertiary': '#6A66A3'
       }
+
     },
 
   },

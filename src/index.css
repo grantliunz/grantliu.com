@@ -50,3 +50,13 @@
 .link-underline:hover::after {
     width: 100%;
 }
+
+.contact-form {
+    border-width: 0px !important;
+    border-bottom-width: 2px !important;
+    border-color: white !important;
+}
+
+.contact-form:focus {
+    outline: none;
+}

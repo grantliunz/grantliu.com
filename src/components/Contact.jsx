@@ -21,15 +21,24 @@ export default function Contact() {
                 </div>
                 <div className='pb-2'>
                     <p className='text-4xl font-bold inline border-b-4'>Contact</p>
-                    <p className='py-4'>// Submit the form below to get in touch</p>
+                    <p className='pt-4'>Got a question or suggestion?</p>
+                    <p className='pb-4'>Submit the form below to get in touch</p>
                 </div>
 
                 <form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/aZYp8wflI0LBvZtqRo4F ">
+                    <div className='flex '>
+                        <div className='flex flex-col w-1/2 mr-2'>
+                            <input className=' w-full p-2 mr-1 mb-2   border-b-2  bg-transparent	contact-form' type="text" placeholder='Name' name='name' data-kw-rules="required|min:2|max:255" />
+                        </div>
+                        <div className='flex flex-col w-full'>
+                            <input className='p-2 ml-1 mb-2  w-full  border-b-2  bg-transparent contact-form' type="email" placeholder='Email' name='email' data-kw-rules="required|email" />
+                        </div>
+                    </div>
 
-                    <input className='p-2 block w-full text-black border-2 rounded' type="text" placeholder='Name' name='name' data-kw-rules="required|min:2|max:255" />
-                    <input className='p-2 my-2 block w-full text-black border-2 rounded' type="email" placeholder='Email' name='email' data-kw-rules="required|email" />
-                    <textarea className='text-black p-2 w-full border-2 rounded' name="message" rows="10" placeholder='Message' data-kw-rules="required"></textarea>
-                    <button className='p-2 flex items-center cursor-pointer border-2 my-4 rounded' type="submit" >Submit</button>
+                    <textarea className=' p-2 w-full border-b-2 bg-transparent contact-form' name="message" rows="1" placeholder='Message' data-kw-rules="required"></textarea>
+                    <button className='items-center cursor-pointer border-2 my-4 mx-auto px-3 py-2 rounded hover:bg-white group duration-200 block' type="submit" >
+                        <span className=' group-hover:text-primary duration-200 '>Submit</span>
+                    </button>
                 </form>
             </div>
         </div>
