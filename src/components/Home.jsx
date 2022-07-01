@@ -1,9 +1,6 @@
 import React from 'react'
 import { RiArrowDownSLine } from 'react-icons/ri'
 import { Link } from 'react-scroll'
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Spade from '../assets/spade.png'
 import Typed from 'react-typed';
 

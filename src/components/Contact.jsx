@@ -20,7 +20,7 @@ export default function Contact() {
                     </button>
                 </div>
                 <div className='pb-2'>
-                    <p className='text-4xl font-bold inline border-b-4'>Contact</p>
+                    <p className='text-5xl font-bold inline '>Contact</p>
                     <p className='pt-4'>Got a question or suggestion?</p>
                     <p className='pb-4'>Submit the form below to get in touch</p>
                 </div>

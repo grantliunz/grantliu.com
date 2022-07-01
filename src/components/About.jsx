@@ -23,20 +23,21 @@ export default function About() {
                     </button>
                 </div>
 
-                <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'  >
+                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'  >
                     <div className='pb-8'>
                         <p className='text-5xl font-bold inline  text-primary'>About</p>
-                    </div>
-                    <div></div>
-                </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div >
 
                     </div>
+                </div>
+                <div className='max-w-[1000px] w-full gap-8 '>
                     <div >
-                        <p className>from</p>
-                        <p className="text-2xl font-bold">Auckland, New Zealand</p>
+                        <ul className='list-disc list-inside text-xl'>
+                            <li>Second year Bachelor of Engineering (Honours) student</li>
+                            <li>From Auckland, New Zealand</li>
+                            <li>Learning full-stack development</li>
+                        </ul>
                     </div>
+
                 </div>
                 <div>
                     <button className='text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 '>
