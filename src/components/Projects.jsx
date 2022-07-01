@@ -37,7 +37,7 @@ export default function Projects() {
                                 Arcade Platformer
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="" className=''>
+                                <a href="https://github.com/grantliunz/arcade-platformer" target="_blank" className=''>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
                                         See More
                                     </button>
@@ -54,7 +54,7 @@ export default function Projects() {
                                 grantliu.com
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="" className=''>
+                                <a href="https://github.com/grantliunz/grantliu.com" target="_blank" className=''>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
                                         See More
                                     </button>

@@ -5,7 +5,9 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Spade from '../assets/spade.png'
+import CV from '../assets/GrantLiu_CV.pdf'
 import Typed from 'react-typed';
+
 
 
 export default function Home() {
@@ -23,7 +25,7 @@ export default function Home() {
             typeSpeed={100}
 
           /></h1>
-        <h2 className='text-4xl sm-text-7xl font-bold text-[#8892b0]'>Software Engineering Student</h2>
+        <h2 className='text-4xl sm-text-7xl font-bold text-[#777]'> Software Engineering Student</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'></p>
 
         <div className='inline-block'>
@@ -61,7 +63,7 @@ export default function Home() {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300 '
-              href="">
+              href={CV} without rel="noopener noreferrer" target='_blank'>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
