@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2e94eeb.css",
-    "main.js": "/static/js/main.f4701d58.js",
+    "main.css": "/static/css/main.46b95c4f.css",
+    "main.js": "/static/js/main.b70f9c5f.js",
     "static/media/arcade.png": "/static/media/arcade.3624bf53566a659f70cf.png",
-    "static/media/heart.png": "/static/media/heart.4d06316098955279e7df.png",
-    "static/media/club.png": "/static/media/club.9d3120f65c73f3b8ba3e.png",
-    "static/media/spade.png": "/static/media/spade.901b2e87aee0f98b131d.png",
-    "static/media/diamond.png": "/static/media/diamond.b303a0d2ce348216f5f4.png",
+    "static/media/GrantLiu_CV.pdf": "/static/media/GrantLiu_CV.659a6775087c5f67d794.pdf",
+    "static/media/portfolio.png": "/static/media/portfolio.930958a35576bbb34e52.png",
+    "static/media/club.png": "/static/media/club.761d59926221e07d741d.png",
+    "static/media/heart.png": "/static/media/heart.345428f45bc942e2ba8e.png",
+    "static/media/spade.png": "/static/media/spade.38765ae83fa77e61d3f2.png",
+    "static/media/diamond.png": "/static/media/diamond.8932eab264708755b2e2.png",
     "index.html": "/index.html",
-    "main.f2e94eeb.css.map": "/static/css/main.f2e94eeb.css.map",
-    "main.f4701d58.js.map": "/static/js/main.f4701d58.js.map"
+    "main.46b95c4f.css.map": "/static/css/main.46b95c4f.css.map",
+    "main.b70f9c5f.js.map": "/static/js/main.b70f9c5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2e94eeb.css",
-    "static/js/main.f4701d58.js"
+    "static/css/main.46b95c4f.css",
+    "static/js/main.b70f9c5f.js"
   ]
 }
