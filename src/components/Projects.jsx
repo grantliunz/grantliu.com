@@ -11,8 +11,8 @@ import { Link } from 'react-scroll'
 export default function Projects() {
     return (
         <div name='projects' className='w-full h-screen text-primary bg-white relative snap-start'>
-            <div className=' bottom-0 right-0 opacity-20 m-0 p-0 absolute '>
-                <img src={Club} />
+            <div className=' hidden sm:block bottom-0 right-0 opacity-20 m-0 p-0 absolute '>
+                <img src={Club} className="h-screen" alt="club background" />
             </div>
             <div className='max-w-[1000px] p-4 flex flex-col justify-center w-full h-full  absolute top-0 left-0 right-0 mx-auto'>
                 <div>
@@ -37,7 +37,7 @@ export default function Projects() {
                                 Arcade Platformer
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://github.com/grantliunz/arcade-platformer" target="_blank" className=''>
+                                <a href="https://github.com/grantliunz/arcade-platformer" target="_blank" rel="noreferrer" className=''>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
                                         See More
                                     </button>
@@ -54,7 +54,7 @@ export default function Projects() {
                                 grantliu.com
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://github.com/grantliunz/grantliu.com" target="_blank" className=''>
+                                <a href="https://github.com/grantliunz/grantliu.com" target="_blank" rel="noreferrer" className=''>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>
                                         See More
                                     </button>

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div name='home' className='w-full h-screen bg-primary text-white relative snap-start'>
       <div className='hidden sm:block absolute opacity-20 p-0 bottom-0 right-0 mx-auto'>
-        <img src={Spade} />
+        <img src={Spade} className="h-screen" alt="Spade background" />
       </div>
       {/* Container */}
       <div className='max-w-[1000px]  p-4 flex flex-col justify-center w-full h-full absolute top-0 left-0 right-0 mx-auto'>
@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className='inline-block'>
           <Link to="about" smooth={true} duration={500}>
-            <button className='text-white py-3 my-2  items-center hover:scale-150 duration-200'>
+            <button className='text-white py-3 my-2  items-center animate-bounce'>
               <RiArrowDownSLine size={50} />
             </button>
           </Link>

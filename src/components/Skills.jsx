@@ -19,8 +19,8 @@ import Diamond from '../assets/diamond.png'
 export default function Skills() {
     return (
         <div name='skills' className='w-full h-screen bg-primary text-white z-10 relative snap-start'>
-            <div className='absolute bottom-0 opacity-20 m-0 p-0 right-0'>
-                <img src={Diamond} />
+            <div className='hidden sm:block absolute bottom-0 opacity-20 m-0 p-0 right-0'>
+                <img src={Diamond} className="h-screen" alt="diamond background" />
             </div>
             {/* Container */}
             <div className='max-w-[1000px] p-4 flex flex-col justify-center w-full h-full absolute top-0 left-0 right-0 mx-auto'>

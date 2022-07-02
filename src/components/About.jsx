@@ -9,8 +9,8 @@ import { Link } from 'react-scroll'
 export default function About() {
     return (
         <div name='about' className="w-full h-screen bg-white text-primary relative snap-start">
-            <div className=' bottom-0 right-0 opacity-20 m-0 p-0 absolute '>
-                <img src={Heart} />
+            <div className='hidden sm:block  bottom-0 right-0 opacity-20 m-0 p-0 absolute '>
+                <img src={Heart} className="h-screen w-auto" alt="heart background" />
             </div>
 
             <div className='max-w-[1000px] p-4 flex flex-col justify-center w-full h-full  absolute top-0 left-0 right-0 mx-auto'>
