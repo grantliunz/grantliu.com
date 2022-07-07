@@ -11,15 +11,21 @@
     }
 
     html {
+
         /* @apply snap-y;
         @apply snap-mandatory;
         @apply overflow-y-scroll; */
+
     }
 
     li {
         @apply px-4;
         @apply cursor-pointer;
     }
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .content-div {
