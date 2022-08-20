@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.38ac46ab.css",
-    "main.js": "/static/js/main.992aeffa.js",
+    "main.css": "/static/css/main.88b2ef83.css",
+    "main.js": "/static/js/main.71d92ccc.js",
     "static/media/arcade.png": "/static/media/arcade.3624bf53566a659f70cf.png",
-    "static/media/GrantLiu_CV.pdf": "/static/media/GrantLiu_CV.659a6775087c5f67d794.pdf",
+    "static/media/zapp.png": "/static/media/zapp.4bc085955b59291554d8.png",
+    "static/media/GrantLiu_CV.pdf": "/static/media/GrantLiu_CV.15b35d0f389036f566ab.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.930958a35576bbb34e52.png",
     "static/media/club.png": "/static/media/club.761d59926221e07d741d.png",
     "static/media/heart.png": "/static/media/heart.345428f45bc942e2ba8e.png",
     "static/media/spade.png": "/static/media/spade.38765ae83fa77e61d3f2.png",
     "static/media/diamond.png": "/static/media/diamond.8932eab264708755b2e2.png",
     "index.html": "/index.html",
-    "main.38ac46ab.css.map": "/static/css/main.38ac46ab.css.map",
-    "main.992aeffa.js.map": "/static/js/main.992aeffa.js.map"
+    "main.88b2ef83.css.map": "/static/css/main.88b2ef83.css.map",
+    "main.71d92ccc.js.map": "/static/js/main.71d92ccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.38ac46ab.css",
-    "static/js/main.992aeffa.js"
+    "static/css/main.88b2ef83.css",
+    "static/js/main.71d92ccc.js"
   ]
 }
