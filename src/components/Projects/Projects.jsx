@@ -13,12 +13,12 @@ export default function Projects() {
   return (
     <div
       name="projects"
-      className="w-full min-h-screen text-primary bg-white relative snap-start"
+      className="w-full min-h-screen  text-primary bg-white relative snap-start "
     >
       <div className=" hidden sm:block bottom-0 right-0 opacity-20 m-0 p-0 absolute ">
         <img src={Club} className="h-screen" alt="club background" />
       </div>
-      <div className="max-w-[1000px] p-4 flex flex-col justify-center w-full h-full  absolute top-0 left-0 right-0 mx-auto">
+      <div className="max-w-[1000px] p-4 flex flex-col justify-center w-full top-0 left-0 right-0 mx-auto">
         <div>
           <button className="text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 ">
             <Link to="skills" smooth={true} duration={500}>
