@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b8336b5.css",
-    "main.js": "/static/js/main.f72bf698.js",
+    "main.js": "/static/js/main.adde1e01.js",
     "static/media/arcade.png": "/static/media/arcade.3624bf53566a659f70cf.png",
     "static/media/zapp.png": "/static/media/zapp.4bc085955b59291554d8.png",
     "static/media/GrantLiu_CV.pdf": "/static/media/GrantLiu_CV.15b35d0f389036f566ab.pdf",
@@ -12,10 +12,10 @@
     "static/media/diamond.png": "/static/media/diamond.8932eab264708755b2e2.png",
     "index.html": "/index.html",
     "main.8b8336b5.css.map": "/static/css/main.8b8336b5.css.map",
-    "main.f72bf698.js.map": "/static/js/main.f72bf698.js.map"
+    "main.adde1e01.js.map": "/static/js/main.adde1e01.js.map"
   },
   "entrypoints": [
     "static/css/main.8b8336b5.css",
-    "static/js/main.f72bf698.js"
+    "static/js/main.adde1e01.js"
   ]
 }
