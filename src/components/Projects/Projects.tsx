@@ -7,11 +7,11 @@ import { RiArrowUpSLine } from "react-icons/ri";
 import Club from "../../assets/club.png";
 import ProjectItem from "./ProjectItem";
 
-import { Link } from "react-scroll";
+import { Link, Element } from "react-scroll";
 
 export default function Projects() {
   return (
-    <div
+    <Element
       name="projects"
       className="w-full min-h-screen  text-primary bg-white relative snap-start "
     >
@@ -56,6 +56,6 @@ export default function Projects() {
           </Link>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

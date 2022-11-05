@@ -1,14 +1,15 @@
 import React, { useEffect } from "react";
 import { RiArrowUpSLine } from "react-icons/ri";
-import { Link } from "react-scroll";
-import kwesforms from "kwesforms";
+import { Link, Element } from "react-scroll";
 
 export default function Contact() {
+  const kwesforms = require("kwesforms");
+
   useEffect(() => {
     kwesforms.init();
-  }, []);
+  }, [kwesforms]);
   return (
-    <div
+    <Element
       name="contact"
       className=" w-full h-screen bg-primary text-white flex justify-center items-center p-4 snap-start"
     >
@@ -27,7 +28,7 @@ export default function Contact() {
         </div>
 
         <form
-          class="kwes-form"
+          className="kwes-form"
           action="https://kwesforms.com/api/foreign/forms/aZYp8wflI0LBvZtqRo4F "
         >
           <div className="flex ">
@@ -54,7 +55,7 @@ export default function Contact() {
           <textarea
             className=" p-2 w-full border-b-2 bg-transparent contact-form"
             name="message"
-            rows="1"
+            rows={1}
             placeholder="Message"
             data-kw-rules="required"
           ></textarea>
@@ -68,6 +69,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </div>
+    </Element>
   );
 }

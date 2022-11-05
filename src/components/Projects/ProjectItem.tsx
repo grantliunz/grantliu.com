@@ -1,4 +1,9 @@
-export default function ProjectItem({ title, image, link }) {
+type Props = {
+  title: string;
+  image: string;
+  link: string;
+};
+export default function ProjectItem({ title, image, link }: Props) {
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}

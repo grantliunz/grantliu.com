@@ -2,7 +2,7 @@ import React from "react";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { RiArrowUpSLine } from "react-icons/ri";
 
-import { Link } from "react-scroll";
+import { Link, Element } from "react-scroll";
 
 import { SiJava } from "react-icons/si";
 import { SiPython } from "react-icons/si";
@@ -17,7 +17,7 @@ import Diamond from "../assets/diamond.png";
 
 export default function Skills() {
   return (
-    <div
+    <Element
       name="skills"
       className="w-full min-h-screen bg-primary text-white z-10 relative snap-start"
     >
@@ -80,6 +80,6 @@ export default function Skills() {
           </Link>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }
