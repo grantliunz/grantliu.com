@@ -24,7 +24,7 @@ export default function Contact() {
         <div className="pb-2">
           <p className="text-5xl font-bold inline ">Contact</p>
           <p className="pt-4">Get in touch with me!!</p>
-          <p className="pb-4">Submit the form below to get in touch</p>
+          <p className="pb-4">Submit the form below 😁</p>
         </div>
 
         <form
