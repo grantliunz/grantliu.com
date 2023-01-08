@@ -8,7 +8,7 @@ export default function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-[#777] z-50 font-semibold ">
+    <div className="fixed w-full h-0 md:h-[80px] flex justify-between items-center px-4 text-[#777] z-50 font-semibold ">
       <div></div>
 
       {/* menu*/}
@@ -65,12 +65,10 @@ export default function Navbar() {
         </li>
       </ul>
 
-      {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10 ">
+      {/* <div onClick={handleClick} className="md:hidden z-10 mr-10 ">
         {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>
 
-      {/* Mobile Menu */}
       <ul
         className={
           !nav
@@ -108,7 +106,7 @@ export default function Navbar() {
             Contact
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

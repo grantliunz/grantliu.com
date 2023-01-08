@@ -37,10 +37,9 @@ export default function Home() {
           />
         </h1>
         <h2 className="text-4xl sm-text-7xl font-bold text-[#777]">
-          {" "}
           Software Engineering Student
         </h2>
-        <div className="flex justify-start">
+        <div className="flex justify-start mt-2">
           <a
             href="https://github.com/grantliunz"
             target="_blank"

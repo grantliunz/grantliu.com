@@ -36,16 +36,16 @@ export default function Projects() {
         </div>
         <Fade cascade damping={0.2}>
           <ul>
-            <li className="w-[405px] pb-2">
+            <li className="w-full max-w-[500px] pb-2">
               <RepoCard username="grantliunz" repository="zapp" />
             </li>
-            <li className="w-[405px] pb-2">
+            <li className="w-full max-w-[500px] pb-2">
               <RepoCard username="grantliunz" repository="quick-draw" />
             </li>
-            <li className="w-[405px] pb-2">
+            <li className="w-full max-w-[500px] pb-2">
               <RepoCard username="grantliunz" repository="grantliu.com" />
             </li>
-            <li className="w-[405px] pb-2">
+            <li className="w-full max-w-[500px] pb-2">
               <RepoCard username="grantliunz" repository="arcade-platformer" />
             </li>
           </ul>
