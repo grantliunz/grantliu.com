@@ -3,15 +3,17 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { RiArrowUpSLine } from "react-icons/ri";
 
 import { Link, Element } from "react-scroll";
+import { Fade } from "react-awesome-reveal";
 
 import { SiJava } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
-import { SiC } from "react-icons/si";
 import { SiGit } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 
 import Image from "next/image";
 
@@ -44,40 +46,56 @@ export default function Skills() {
           <p className="py-4">Technologies I've worked with:</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="mx-auto">
-            <SiJava size={80} />
-            <p className="pt-2">Java</p>
-          </div>
-          <div className="mx-auto">
-            <SiPython size={80} />
-            <p className="pt-2">Python</p>
-          </div>
-          <div className="mx-auto">
-            <SiHtml5 size={80} />
-            <p className="pt-2">HTML</p>
-          </div>
-          <div className="mx-auto">
-            <SiCss3 size={80} />
-            <p className="pt-2">CSS</p>
-          </div>
-          <div className="mx-auto">
-            <SiJavascript size={80} />
-            <p className="pt-2">Javascript</p>
-          </div>
-          <div className="mx-auto">
-            <SiReact size={80} />
-            <p className="pt-2">React</p>
-          </div>
-          <div className="mx-auto">
-            <SiC size={80} />
-            <p className="pt-2">C</p>
-          </div>
-          <div className="mx-auto">
-            <SiGit size={80} />
-            <p className="pt-2">Git</p>
-          </div>
-        </div>
+        <Fade cascade damping={0.1}>
+          <ul className="w-fit grid grid-cols-2 gap-4 text-center py-8">
+            <li>
+              <SiJava size={80} className="my-3" />
+              Java
+            </li>
+
+            <li>
+              <SiPython size={80} className="my-3" />
+              Python
+            </li>
+          </ul>
+        </Fade>
+
+        <Fade cascade damping={0.1}>
+          <ul className="w-fit grid grid-cols-3 gap-4 text-center py-8">
+            <li>
+              <Image
+                src="/images/next-js.svg"
+                alt="nextjs logo"
+                className="invert my-3"
+                width={80}
+                height={80}
+              />
+              Next.js
+            </li>
+            <li>
+              <SiReact size={80} className="my-3" />
+              React
+            </li>
+            <li>
+              <SiTypescript size={80} className="my-3" />
+              TypeScript
+            </li>
+            <li>
+              <SiJavascript size={80} className="my-3" />
+              JavaScript
+            </li>
+
+            <li>
+              <SiHtml5 size={80} className="my-3" />
+              HTML
+            </li>
+            <li>
+              <SiCss3 size={80} className="my-3" />
+              CSS
+            </li>
+          </ul>
+        </Fade>
+
         <div className="">
           <Link to="projects" smooth={true} duration={500}>
             <button className="text-white py-3 my-2 flex items-center hover:scale-150 duration-200 ">
