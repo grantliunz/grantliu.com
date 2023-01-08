@@ -27,7 +27,7 @@ export default function Skills() {
         <Image
           src="/images/diamond.png"
           className="h-screen w-auto"
-          alt="diamond background"
+          alt=""
           width={800}
           height={800}
         />

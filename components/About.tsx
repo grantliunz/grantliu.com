@@ -16,7 +16,7 @@ export default function About() {
         <Image
           src="/images/heart.png"
           className="h-screen w-auto"
-          alt="heart background"
+          alt=""
           width={800}
           height={800}
         />

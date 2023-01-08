@@ -17,7 +17,7 @@ export default function Projects() {
         <Image
           src="/images/club.png"
           className="h-screen w-auto"
-          alt="club background"
+          alt=""
           width={800}
           height={800}
         />

@@ -15,7 +15,7 @@ export default function Home() {
         <Image
           src="/images/spade.png"
           className="h-screen w-auto"
-          alt="spade background"
+          alt=""
           width={800}
           height={800}
           priority={true}
