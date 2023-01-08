@@ -23,7 +23,8 @@
   },
   "include": [
     "src",
-    "components/Projects"
+    "components/Projects",
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules"

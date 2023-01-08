@@ -109,50 +109,6 @@ export default function Navbar() {
           </Link>
         </li>
       </ul>
-
-      {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#777] rounded-tr-md hover:rounded-md ">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href="https://www.linkedin.com/in/grantliunz/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#777] hover:rounded-md">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href="https://github.com/grantliunz"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#777] hover:rounded-md">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href="mailto:grant.liux@gmail.com"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#777] rounded-br-md hover:rounded-md">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href="GrantLiu_CV.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 }

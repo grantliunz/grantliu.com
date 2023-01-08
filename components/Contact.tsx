@@ -21,6 +21,7 @@ export default function Contact() {
             </Link>
           </button>
         </div>
+
         <div className="pb-2">
           <p className="text-5xl font-bold inline ">Contact</p>
           <p className="pt-4">Get in touch with me!!</p>
@@ -28,7 +29,7 @@ export default function Contact() {
         </div>
 
         <form
-          className="kwes-form"
+          className="kwes-form w-4/5 mx-auto"
           action="https://kwesforms.com/api/foreign/forms/aZYp8wflI0LBvZtqRo4F "
         >
           <div className="flex ">

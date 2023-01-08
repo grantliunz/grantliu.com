@@ -5,6 +5,9 @@ import Image from "next/image";
 
 import { Link, Element } from "react-scroll";
 
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
+
 export default function About() {
   return (
     <Element
@@ -37,11 +40,17 @@ export default function About() {
         </div>
         <div className="max-w-[1000px] w-full gap-8 ">
           <div>
-            <ul className="list-disc list-inside text-xl">
-              <li>Second year Bachelor of Engineering (Honours) student</li>
-              <li>From Auckland, New Zealand</li>
-              <li>Learning full-stack development</li>
-            </ul>
+            <ScrollAnimation
+              animateIn={"animate__fadeInUp"}
+              delay={50}
+              duration={0.6}
+            >
+              <ul className="list-disc list-inside text-xl">
+                <li>Second year Bachelor of Engineering (Honours) student</li>
+                <li>From Auckland, New Zealand</li>
+                <li>Learning full-stack development</li>
+              </ul>
+            </ScrollAnimation>
           </div>
         </div>
         <div>
