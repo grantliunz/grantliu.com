@@ -1,7 +1,7 @@
 import React from "react";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { RiArrowUpSLine } from "react-icons/ri";
-import Heart from "../assets/heart.png";
+import Image from "next/image";
 
 import { Link, Element } from "react-scroll";
 
@@ -12,7 +12,13 @@ export default function About() {
       className="w-full h-screen bg-white text-primary relative snap-start"
     >
       <div className="hidden sm:block  bottom-0 right-0 opacity-20 m-0 p-0 absolute ">
-        <img src={Heart} className="h-screen w-auto" alt="heart background" />
+        <Image
+          src="/images/heart.png"
+          className="h-screen w-auto"
+          alt="heart background"
+          width={800}
+          height={800}
+        />
       </div>
 
       <div className="max-w-[1000px] p-4 flex flex-col justify-center w-full h-full  absolute top-0 left-0 right-0 mx-auto">

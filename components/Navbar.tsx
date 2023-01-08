@@ -5,7 +5,6 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 export default function Navbar() {
-  const CV = require("../assets/GrantLiu_CV.pdf");
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
@@ -145,7 +144,7 @@ export default function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#777] rounded-br-md hover:rounded-md">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href={CV}
+              href="GrantLiu_CV.pdf"
               target="_blank"
               rel="noreferrer"
             >
