@@ -13,7 +13,7 @@ import { SiReact } from "react-icons/si";
 import { SiC } from "react-icons/si";
 import { SiGit } from "react-icons/si";
 
-import Diamond from "../assets/diamond.png";
+import Image from "next/image";
 
 export default function Skills() {
   return (
@@ -22,7 +22,13 @@ export default function Skills() {
       className="w-full min-h-screen bg-primary text-white z-10 relative snap-start"
     >
       <div className="hidden sm:block absolute bottom-0 opacity-20 m-0 p-0 right-0">
-        <img src={Diamond} className="h-screen" alt="diamond background" />
+        <Image
+          src="/images/diamond.png"
+          className="h-screen w-auto"
+          alt="diamond background"
+          width={800}
+          height={800}
+        />
       </div>
       {/* Container */}
       <div className="max-w-[1000px] p-4 flex flex-col justify-center w-full h-full static sm:absolute top-0 left-0 right-0 mx-auto">
