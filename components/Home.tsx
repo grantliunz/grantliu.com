@@ -3,6 +3,7 @@ import { Link, Element } from "react-scroll";
 import Typed from "react-typed";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { ReactNode } from "react";
 
 export default function Home() {
   return (
@@ -23,12 +24,15 @@ export default function Home() {
       {/* Container */}
       <div className="max-w-[1000px]  p-4 flex flex-col justify-center w-full h-full absolute top-0 left-0 right-0 mx-auto">
         <p>Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-white">
+        <h1
+          className="text-4xl sm:text-7xl font-bold text-white"
+          id="typed-header"
+        >
           <Typed
             strings={["Grant Liu"]}
             typeSpeed={100}
             onComplete={() => {
-              console.log("bruh");
+              document.getElementById("typed-header")!.innerHTML = "Grant Liu";
             }}
           />
         </h1>

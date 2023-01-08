@@ -2,11 +2,9 @@ import React from "react";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { RiArrowUpSLine } from "react-icons/ri";
 import Image from "next/image";
-
 import { Link, Element } from "react-scroll";
 
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.min.css";
+import { Fade } from "react-awesome-reveal";
 
 export default function About() {
   return (
@@ -39,19 +37,15 @@ export default function About() {
           </div>
         </div>
         <div className="max-w-[1000px] w-full gap-8 ">
-          <div>
-            <ScrollAnimation
-              animateIn={"animate__fadeInUp"}
-              delay={50}
-              duration={0.6}
-            >
-              <ul className="list-disc list-inside text-xl">
-                <li>Second year Bachelor of Engineering (Honours) student</li>
-                <li>From Auckland, New Zealand</li>
-                <li>Learning full-stack development</li>
-              </ul>
-            </ScrollAnimation>
-          </div>
+          <Fade cascade damping={0.2}>
+            <ul className="list-disc list-inside text-xl">
+              <li>
+                Penultimate year Bachelor of Engineering (Honours) student
+              </li>
+              <li>From Auckland, New Zealand</li>
+              <li>Learning full-stack development</li>
+            </ul>
+          </Fade>
         </div>
         <div>
           <button className="text-primary py-3 my-2 flex items-center hover:scale-150 duration-200 ">

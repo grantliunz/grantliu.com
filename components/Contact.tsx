@@ -29,7 +29,7 @@ export default function Contact() {
         </div>
 
         <form
-          className="kwes-form w-4/5 mx-auto"
+          className="kwes-form"
           action="https://kwesforms.com/api/foreign/forms/aZYp8wflI0LBvZtqRo4F "
         >
           <div className="flex ">

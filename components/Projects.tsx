@@ -1,9 +1,11 @@
 import { RiArrowDownSLine } from "react-icons/ri";
 import { RiArrowUpSLine } from "react-icons/ri";
-// import Club from "../../assets/club.png";
 import Image from "next/image";
+import RepoCard from "react-repo-card";
 
 import { Link, Element } from "react-scroll";
+
+import { Fade } from "react-awesome-reveal";
 
 export default function Projects() {
   return (
@@ -30,9 +32,24 @@ export default function Projects() {
         </div>
         <div className="pb-8">
           <p className="text-5xl font-bold inline "> Projects</p>
-          <p className="py-6">Check out some of my favourite projects</p>
+          <p className="pt-6">Check out some of my favourite projects</p>
         </div>
-        {/* Container */}
+        <Fade cascade damping={0.2}>
+          <ul>
+            <li className="w-[405px] pb-2">
+              <RepoCard username="grantliunz" repository="zapp" />
+            </li>
+            <li className="w-[405px] pb-2">
+              <RepoCard username="grantliunz" repository="quick-draw" />
+            </li>
+            <li className="w-[405px] pb-2">
+              <RepoCard username="grantliunz" repository="grantliu.com" />
+            </li>
+            <li className="w-[405px] pb-2">
+              <RepoCard username="grantliunz" repository="arcade-platformer" />
+            </li>
+          </ul>
+        </Fade>
 
         <div className="">
           <Link to="contact" smooth={true} duration={500}>
